@@ -1,0 +1,24 @@
+# WRS001 — Security: Never commit API keys or personal data
+
+# API key files
+.env
+.weread_key
+weread_key.txt
+
+# Sync output (user's personal notes)
+output/
+
+# Python artifacts
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
